@@ -1,0 +1,26 @@
+{
+    "name": "@js20/schema",
+    "version": "1.0.0",
+    "license": "MIT",
+    "sideEffects": false,
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "prebuild": "rimraf ./dist",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^11.0.1",
+        "@semantic-release/npm": "^12.0.1",
+        "@types/node": "^22.10.5",
+        "rimraf": "5.0.1",
+        "semantic-release": "^24.2.0",
+        "typescript": "^4.0.3"
+    }
+}
