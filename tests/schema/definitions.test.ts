@@ -1,5 +1,4 @@
 import {
-    getXCharacters,
     sString,
     sStringShort,
     sStringMedium,
@@ -20,7 +19,17 @@ import {
     sDate,
 } from '~/index';
 
-import { getErrorMessage } from '../../test-helpers';
+import { getErrorMessage } from '../test-helpers';
+
+const getXCharacters = (character: string, x: number) => {
+    let result = '';
+
+    for (let i = 0; i < x; i++) {
+        result += character;
+    }
+
+    return result;
+};
 
 const expectSchemaThrows = (schema: any, value: any, expectedError: RegExp) => {
     try {

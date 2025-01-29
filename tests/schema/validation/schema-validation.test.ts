@@ -1,7 +1,7 @@
-import { sString, getValidatedSchema, sOptional, sortObject } from '~/index';
+import { sString, getValidatedSchema, sOptional } from '~/index';
 import { getSchemaBase } from '~/schema/helpers';
 
-import { getErrorMessage } from '../../../test-helpers';
+import { getErrorMessage } from '../../test-helpers';
 
 const expectSchemaThrows = (schema: any, expectedError: RegExp) => {
     try {
@@ -22,7 +22,7 @@ describe('[validateSchema]', () => {
     });
 
     it('Schema without type is rejected', () => {
-        const schema = getSchemaBase(null, '');
+        const schema = getSchemaBase(null as any, '');
         expectSchemaThrows(schema, /No "type" field present/);
     });
 

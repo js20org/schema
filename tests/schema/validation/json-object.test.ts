@@ -13,7 +13,7 @@ import {
     ValidatedSchema,
 } from '~/index';
 
-import { getErrorMessage } from '../../../test-helpers';
+import { getErrorMessage } from '../../test-helpers';
 
 class SomeClass {}
 

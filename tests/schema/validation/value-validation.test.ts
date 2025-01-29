@@ -19,7 +19,7 @@ import {
     sString,
 } from '~/index';
 
-import { getErrorMessage } from '../../../test-helpers';
+import { getErrorMessage } from '../../test-helpers';
 
 const expectSchemaThrows = (schema: any, value: any, expectedError: RegExp) => {
     try {
@@ -38,7 +38,7 @@ const expectSchemaOk = (schema: any, value: any) => {
 
 describe('[validateSchema]', () => {
     it('Fields without valid types are rejected', () => {
-        expectSchemaThrows(getSchemaBase(null, ''), {}, /Unknown schema type/);
+        expectSchemaThrows(getSchemaBase(null as any, ''), {}, /Unknown schema type/);
     });
 
     it('Simple valid fields are accepted', () => {

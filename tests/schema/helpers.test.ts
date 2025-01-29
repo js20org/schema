@@ -13,13 +13,14 @@ import {
     sStringLong,
     sStringMedium,
     getSchemaFieldType,
-    SchemaType,
     isSchemaFieldOptional,
     sIntegerInRange,
     sEmptyObject,
     isSchemaType,
     sDate,
-} from '~/index';
+} from '~/schema';
+
+import { SchemaType } from '~/types';
 
 describe('[ValidatedSchema]', () => {
     it('Works as it should', () => {

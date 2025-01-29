@@ -1,6 +1,6 @@
 import { SchemaInvalidError, SchemaInvalidValueError } from '~/index';
 import { ISchemaIssue } from '~/types';
-import { getErrorMessage } from '../../test-helpers';
+import { getErrorMessage } from '../test-helpers';
 
 const issue: ISchemaIssue = {
     schema: {

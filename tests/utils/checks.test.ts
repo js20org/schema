@@ -8,7 +8,7 @@ import {
     isValidNotNanNumber,
     isValidStringInsideLimit,
     isValidNonEmptyArray,
-} from '~/validation/checks';
+} from '~/utils';
 
 describe('[isNullOrUndefined]', () => {
     it('Works as it should', () => {

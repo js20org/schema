@@ -7,7 +7,7 @@ import {
     isBoolean,
     isFunction,
     isIntegerString,
-} from '~/validation/type';
+} from '~/utils';
 
 class Foobar {}
 
