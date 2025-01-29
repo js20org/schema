@@ -24,16 +24,16 @@ const sUser: User = {
 //Validated schema
 const validatedSchema = getValidatedSchema(sUser);
 
-//Validate any values
+//This throws
 validateBySchema(validatedSchema, {
     something: false
-}); //Throws
+});
 
+//This is ok
 validateBySchema(validatedSchema, {
     id: 1,
     name: "John"
-}); //OK
-
+});
 ```
 
 ## License
