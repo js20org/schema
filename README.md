@@ -3,7 +3,6 @@
 Schema validation for frontend or backend.
 E.g.
 
-
 ```ts
 //Type definition for typescript compiler
 interface User {
