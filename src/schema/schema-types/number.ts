@@ -2,7 +2,7 @@ import {
     isNullOrUndefined,
     isValidInteger,
     isValidNotNanNumber,
-} from '../../validation';
+} from '../../utils';
 
 import { getSchemaBase } from '../helpers';
 import { INumberData, IValidationResult, SchemaType } from '../../types';

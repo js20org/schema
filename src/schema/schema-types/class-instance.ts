@@ -1,6 +1,4 @@
-import { isNullOrUndefined, isValidClassInstance } from '../../validation';
-import { getClassNameFromType } from '../../utils';
-
+import { getClassNameFromType, isNullOrUndefined, isValidClassInstance } from '../../utils';
 import { getSchemaBase } from '../helpers';
 import { IClassInstanceData, IValidationResult, SchemaType } from '../../types';
 

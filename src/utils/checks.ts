@@ -1,5 +1,5 @@
 import { isString, isInteger, isNumber, isArray } from './type';
-import { isInsideSizeLimit } from '../utils/string';
+import { isInsideSizeLimit } from './string';
 
 /* ----------------- GENERAL ----------------- */
 

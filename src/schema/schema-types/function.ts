@@ -1,4 +1,4 @@
-import { isFunction, isNullOrUndefined } from '../../validation';
+import { isFunction, isNullOrUndefined } from '../../utils';
 
 import { getSchemaBase } from '../helpers';
 import { IFunctionData, IValidationResult, SchemaType } from '../../types';

@@ -1,5 +1,5 @@
 import { IDateData, IValidationResult, SchemaType } from '../../types';
-import { isNullOrUndefined, isValidDateInstance } from '../../validation';
+import { isNullOrUndefined, isValidDateInstance } from '../../utils';
 import { getSchemaBase } from '../helpers';
 
 export class DateType {

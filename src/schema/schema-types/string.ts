@@ -2,7 +2,7 @@ import {
     isNullOrUndefined,
     isIntegerString,
     isValidString,
-} from '../../validation';
+} from '../../utils';
 
 import { IStringData, IValidationResult, SchemaType } from '../../types';
 import { isInsideSizeLimit, isRegexMatch } from '../../utils';

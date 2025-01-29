@@ -1,4 +1,4 @@
-import { isBoolean, isNullOrUndefined } from '../../validation';
+import { isBoolean, isNullOrUndefined } from '../../utils';
 
 import { getSchemaBase } from '../helpers';
 import { IBooleanData, IValidationResult, SchemaType } from '../../types';

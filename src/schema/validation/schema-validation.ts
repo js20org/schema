@@ -6,7 +6,7 @@ import {
     IOptionalObjectData,
 } from '../../types';
 
-import { isArray, isObject } from '../../validation';
+import { isArray, isObject } from '../../utils';
 import { SchemaInvalidError } from '../errors';
 import { isSchemaAnObject, isSchemaType, ValidatedSchema } from '../helpers';
 
@@ -106,7 +106,7 @@ const validateSchemaInternal = (
     getError: SchemaErrorGetter,
     schema: any,
     fieldKeys: string[]
-) => {
+): any => {
     const isOptionalObject = isSchemaType(schema, SchemaType.OPTIONAL_OBJECT);
     const isSchemaArray = isArray(schema);
     const isSchemaObject = isSchemaAnObject(schema);

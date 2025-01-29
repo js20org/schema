@@ -1,5 +1,5 @@
 import { removeElement } from '../../utils';
-import { isArray, isNullOrUndefined, isObject } from '../../validation';
+import { isArray, isNullOrUndefined, isObject } from '../../utils';
 
 import { SchemaInvalidValueError } from '../errors';
 import { isSchemaAnObject, isSchemaType } from '../helpers';

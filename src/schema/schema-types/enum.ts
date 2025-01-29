@@ -1,5 +1,4 @@
-import { isNullOrUndefined, isString } from '../../validation';
-import { isValidEnumValue } from '../../utils';
+import { isNullOrUndefined, isString, isValidEnumValue } from '../../utils';
 import { getSchemaBase } from '../helpers';
 import { IEnumData, IValidationResult, SchemaType } from '../../types';
 

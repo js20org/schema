@@ -6,7 +6,7 @@ import {
     isObject,
     isValidDateInstance,
     isValidString,
-} from '../../validation';
+} from '../../utils';
 
 import {
     ISchemaArray,
@@ -67,7 +67,7 @@ const getObjectInternal = (
         throw getError(fieldKeys, 'Expected value to be an object');
     }
 
-    const resultObject = {};
+    const resultObject: any = {};
     const valueObject = <Record<string, any>>value;
 
     const schemaKeys = Object.keys(schema);
@@ -152,7 +152,7 @@ const getInternal = (
     schema: any,
     value: any,
     fieldKeys: string[]
-) => {
+): any => {
     const isOptionalObject = isSchemaType(schema, SchemaType.OPTIONAL_OBJECT);
     const isSchemaArray = isArray(schema);
     const isSchemaObject = isSchemaAnObject(schema);

@@ -1,5 +1,5 @@
 import { INumberData, ISchemaData, ISchemaIssue, SchemaType } from '../types';
-import { isIntegerString } from '../validation';
+import { isIntegerString } from '../utils';
 import { SchemaErrorBase } from './errors';
 
 export class SchemaInvalidFieldError extends SchemaErrorBase {

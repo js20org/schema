@@ -1,4 +1,4 @@
-import { isNullOrUndefined } from '../../validation';
+import { isNullOrUndefined } from '../../utils';
 
 import { getSchemaBase } from '../helpers';
 import { ISchemaData, IValidationResult, SchemaType } from '../../types';

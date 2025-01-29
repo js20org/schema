@@ -1,4 +1,4 @@
-import { isObject } from '../../validation';
+import { isObject } from '../../utils';
 import { getSchemaBase } from '../helpers';
 import { ISchemaData, IValidationResult, SchemaType } from '../../types';
 

@@ -6,7 +6,7 @@ import {
 } from '../types';
 
 import { getFrozenClone } from '../utils';
-import { isObject, isString } from '../validation';
+import { isObject, isString } from '../utils';
 
 export const getSchemaBase = (
     schemaType: SchemaType,
