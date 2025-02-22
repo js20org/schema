@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/js20org/schema/compare/v1.0.2...v1.0.3) (2025-02-22)
+
+
+### Bug Fixes
+
+* build files ([0e0a077](https://github.com/js20org/schema/commit/0e0a077b8e8b5f9cf3ea987a42fc4087e281f325))
+
 ## [1.0.2](https://github.com/js20org/schema/compare/v1.0.1...v1.0.2) (2025-02-22)
 
 
