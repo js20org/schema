@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/js20org/schema/compare/v1.1.0...v1.2.0) (2025-10-08)
+
+
+### Features
+
+* exporting more types ([8dde516](https://github.com/js20org/schema/commit/8dde516ffe24dbe0d19ff336c0fba73d1ede70cc))
+
 # [1.1.0](https://github.com/js20org/schema/compare/v1.0.3...v1.1.0) (2025-09-25)
 
 
